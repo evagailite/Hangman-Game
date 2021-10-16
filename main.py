@@ -15,7 +15,7 @@ print(hangman_art.logo + "\n")
 display = []
 for _ in range(word_length):
     display += "_"
-
+ 
 print(f"{' '.join(display)}")
 
 while not end_of_game:
